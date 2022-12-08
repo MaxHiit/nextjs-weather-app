@@ -8,7 +8,8 @@ type Props = {
 const ImageBgComponent: React.FC<Props> = ({ main }) => {
 	const currentValue = imageBgData.find((item) => item.name === main.toLowerCase());
 
-	if (currentValue === undefined) return null;
+	if (currentValue === undefined)
+		return <div className='absolute h-screen w-screen -z-10 defaultBg'></div>;
 
 	return (
 		<Image

@@ -22,4 +22,8 @@ body {
 		backdrop-filter: blur(5px);
 		-webkit-backdrop-filter: blur(5px);
 	}
+
+	.defaultBg {
+		background-image: linear-gradient(to right, #84a69e, #4c8994, #23698d, #34437a, #4b134f);
+	}
 }
