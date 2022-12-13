@@ -2,7 +2,7 @@
 
 > A Next JS and Tailwind App with API from Openweathermap
 
-[live demo]()
+[live demo](https://nextjs-weather-app-psi.vercel.app/)
 
 Uses the following technologies:
 
