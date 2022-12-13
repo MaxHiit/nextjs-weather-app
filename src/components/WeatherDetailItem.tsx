@@ -1,9 +1,11 @@
+import { FunctionComponent } from 'react';
+
 type Props = {
 	name: string;
 	value: string | null;
 };
 
-const WeatherDetailsItem: React.FC<Props> = ({ name, value }) => {
+const WeatherDetailsItem: FunctionComponent<Props> = ({ name, value }) => {
 	const unit =
 		name === 'cloudy' || name === 'humidity'
 			? '%'
