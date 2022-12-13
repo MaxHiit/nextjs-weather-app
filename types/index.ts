@@ -6,11 +6,10 @@ export type Stats = {
 
 export interface Weather {
 	id: number;
-	cityName: string;
+	city: string;
 	temp: number;
 	icon: string;
 	main: string;
-	dt: number;
 	timezone: number;
 	stats?: Stats[] | null;
 }
